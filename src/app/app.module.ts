@@ -1,16 +1,24 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BanerModule } from './baner/baner.module';
+import { CuerpomModule } from './cuerpom/cuerpom.module';
+import { EncabezadoModule } from './encabezado/encabezado.module';
+import { PiemModule } from './piem/piem.module';
+import { SliderComponent } from './components/slider/slider.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SliderComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    EncabezadoModule,
+    CuerpomModule,
+    PiemModule,
+    BanerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

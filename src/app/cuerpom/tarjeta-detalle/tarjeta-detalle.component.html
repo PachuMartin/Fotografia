@@ -1,0 +1,13 @@
+<div *ngIf="tarinput" class="row ">
+    <div  class="col-12 mt-3">
+      <div class="card  " style="width: 100;">
+        <img src="../../../assets/imagen/{{tarinput.imagen}}" class="card-img-top " alt="...">
+        <div class="card-body">
+          <p class="card-text">{{tarinput.nombre}}</p>
+        </div>
+        <div>
+          <button class="btn btn-dark " (click)="agregarCategoria()">agregar</button>
+        </div>
+      </div>
+    </div>
+  </div>
