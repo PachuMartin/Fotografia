@@ -7,6 +7,8 @@ import { CuerpomModule } from './cuerpom/cuerpom.module';
 import { EncabezadoModule } from './encabezado/encabezado.module';
 import { PiemModule } from './piem/piem.module';
 import { SliderComponent } from './components/slider/slider.component';
+import { SidebarModule } from './sidebar/sidebar.module';
+import { InicioModule } from './inicio/inicio.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { SliderComponent } from './components/slider/slider.component';
     EncabezadoModule,
     CuerpomModule,
     PiemModule,
-    BanerModule
+    BanerModule,
+    SidebarModule,
+    InicioModule
   ],
   providers: [],
   bootstrap: [AppComponent]
